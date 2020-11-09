@@ -2,7 +2,7 @@
 # Function for tell_me_how_drunk 
 
 tell_me_how_drunk <- function(age, sex = c("male", "female"), height, weight,drinking_time,  drinks) {
-  
+
   # Pre-Stuff
   # proofness of drinks
   proofness <- c("hoibe" = 0.06, "massn" = 0.06,  "schnaps" = 0.4, "wein" = 0.11)
