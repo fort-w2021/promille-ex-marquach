@@ -53,7 +53,7 @@ tell_me_how_drunk <- function(age, sex = c("male", "female"), height, weight,dri
   }
   r <- calculated_r(GKW,weight)
   
-  
+
   calculate_c <- function(A,r, weight,drinking_time)
     {
     #fist jsut calc c without drinking_time knowledge
